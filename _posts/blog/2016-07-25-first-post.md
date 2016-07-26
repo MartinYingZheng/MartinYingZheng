@@ -1,9 +1,21 @@
 ---
 layout: post
 title: The Parable of Ox
+layout: post
+title: Sample Post
+excerpt: Guess of Guessing Game
+modified:
+categories: blog
+tags: [sample-post]
+image:
+  feature: so-simple-sample-image-1.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+comments: true
+share: true
 ---
 
-# Prologue: The parable of Ox
+# The parable of Ox
 
 Author starts with an interesting parable not just about financial market, but actually related to many aspects of economics. This parable is worth remembering for every economist and business man.
 
