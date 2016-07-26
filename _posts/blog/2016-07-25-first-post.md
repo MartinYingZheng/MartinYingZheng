@@ -4,7 +4,7 @@ title: The Parable of Ox
 excerpt: Guess of Guessing Game
 modified:
 categories: blog
-tags: [sample-post]
+tags: [Xiaoxi Pan]
 image:
   feature: so-simple-sample-image-1.jpg
   credit: WeGraphics
