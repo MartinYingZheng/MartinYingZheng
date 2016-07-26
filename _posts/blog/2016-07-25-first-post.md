@@ -4,9 +4,9 @@ title: The Parable of Ox
 excerpt: Guess of Guessing Game
 modified:
 categories: blog
-tags: [Xiaoxi Pan]
+tags:
 image:
-  feature: so-simple-sample-image-1.jpg
+  feature: site-logo.jpg
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 comments: true
