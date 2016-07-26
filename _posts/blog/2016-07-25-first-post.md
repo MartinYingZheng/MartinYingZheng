@@ -1,8 +1,6 @@
 ---
 layout: post
 title: The Parable of Ox
-layout: post
-title: Sample Post
 excerpt: Guess of Guessing Game
 modified:
 categories: blog
