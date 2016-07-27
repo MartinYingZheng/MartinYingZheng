@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Post markdown with LaTeX
+title: Post markdown with LaTeX - TRY
 excerpt: borrow from quiver
 modified:
 categories: blog
@@ -11,7 +11,6 @@ comments: true
 share: true
 ---
 
-# 2 - Cell Types
 
 Currently five cell types are supported:
 
