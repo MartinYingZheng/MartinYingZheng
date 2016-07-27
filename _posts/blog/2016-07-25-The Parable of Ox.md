@@ -7,8 +7,6 @@ categories: blog
 tags:
 image:
   feature: site-logo.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 comments: true
 share: true
 ---

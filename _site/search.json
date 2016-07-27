@@ -2,9 +2,17 @@
 
   
     {
-      "title"			: "Post HTML File TRY",
-      "link"			: "https://martinyingzheng.github.io/blog/html-with-latex/",
-      "excerpt"		: "borrow from quiver"
+      "title"			: "Html with latex",
+      "link"			: "https://martinyingzheng.github.io/html-with-latex/",
+      "excerpt"		: "&lt;!DOCTYPE html&gt;                      "
+    }
+  
+
+  
+    ,{
+      "title"			: "The Parable of Ox",
+      "link"			: "https://martinyingzheng.github.io/blog/The-Parable-of-Ox/",
+      "excerpt"		: "Guess of Guessing Game"
     }
   
 
