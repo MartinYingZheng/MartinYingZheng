@@ -1,0 +1,380 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Post markdown with LaTeX &#8211; Ying Zheng</title>
+<meta name="description" content="borrow from quiver">
+<meta name="keywords" content="">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Post markdown with LaTeX">
+<meta name="twitter:description" content="borrow from quiver">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://martinyingzheng.github.io/images/site-logo.jpg">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Post markdown with LaTeX">
+<meta property="og:description" content="borrow from quiver">
+<meta property="og:url" content="https://martinyingzheng.github.io/blog/md-with-latex/">
+<meta property="og:site_name" content="Ying Zheng">
+
+
+
+
+
+<link rel="canonical" href="https://martinyingzheng.github.io/blog/md-with-latex/">
+<link href="https://martinyingzheng.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Ying Zheng Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://martinyingzheng.github.io/assets/css/main.css">
+<!-- Webfonts -->
+<script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+  <script src="https://martinyingzheng.github.io/assets/js/vendor/html5shiv.min.js"></script>
+  <script src="https://martinyingzheng.github.io/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="https://martinyingzheng.github.io/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+
+<!-- MathJax -->
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="https://martinyingzheng.github.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="https://martinyingzheng.github.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="https://martinyingzheng.github.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://martinyingzheng.github.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://martinyingzheng.github.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://martinyingzheng.github.io/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+      
+		    
+		    <li><a href="https://martinyingzheng.github.io/about/" >About</a></li>
+		  
+		    
+		    <li><a href="https://martinyingzheng.github.io/articles/" >Articles</a></li>
+		  
+		    
+		    <li><a href="https://martinyingzheng.github.io/blog/" >Blog</a></li>
+		  
+		    
+		    <li><a href="https://martinyingzheng.github.io/theme-setup/" >Theme Setup</a></li>
+		  
+		    
+		    <li><a href="https://martinyingzheng.github.io/search/" >Search</a></li>
+		  
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+<header class="masthead">
+	
+		<div class="wrap">
+			<a href="https://martinyingzheng.github.io/" class="site-logo" rel="home" title="Ying Zheng"><img src="https://martinyingzheng.github.io/images/site-logo.jpg" width="200" height="200" alt="Ying Zheng logo" class="animated fadeInDown"></a>
+		</div>
+	
+</header><!-- /.masthead -->
+
+
+<div class="js-menu-screen menu-screen"></div>
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <img src="https://martinyingzheng.github.io/images/site-logo.jpg" class="entry-feature-image" alt="Post markdown with LaTeX" >
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <ul class="entry-tags">
+          
+        </ul>
+        
+          <h1 class="entry-title">Post markdown with LaTeX</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        
+          <img src="https://martinyingzheng.github.io/images/bio-photo.jpg" class="bio-photo" alt="Ying Zheng bio photo"></a>
+        
+        <span class="author vcard">By <span class="fn">Ying Zheng</span></span>
+        <span class="entry-date date published"><time datetime="2016-07-27T00:00:00-05:00"><i class="fa fa-calendar-o"></i> July 27, 2016</time></span>
+        
+        
+        <span class="social-share-twitter">
+  <a href="https://twitter.com/intent/tweet?hashtags=&amp;text=Post%20markdown%20with%20LaTeX&amp;url=https://martinyingzheng.github.io/blog/md-with-latex/" title="Share on Twitter" itemprop="Twitter"><i class="fa fa-twitter-square"></i> Tweet</a>
+</span>
+<span class="social-share-facebook">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://martinyingzheng.github.io/blog/md-with-latex/" title="Share on Facebook" itemprop="Facebook"><i class="fa fa-facebook-square"></i> Like</a>
+</span>
+<span class="social-share-googleplus">
+  <a href="https://plus.google.com/share?url=https://martinyingzheng.github.io/blog/md-with-latex/" title="Share on Google Plus" itemprop="GooglePlus"><i class="fa fa-google-plus-square"></i> +1</a>
+</span>
+<!-- /.social-share -->
+        
+      </footer>
+      <div class="entry-content">
+        <h1 id="cell-types">2 - Cell Types</h1>
+
+<p>Currently five cell types are supported:</p>
+
+<ol>
+  <li>A “Text Cell” lets you edit rich-text in-place. It supports images and links too.</li>
+  <li>A “Code Cell” packs the awesome ACE code editor, with syntax highlighting support for 120+ languages, 20+ themes, automatic indent and outdent, code completion, and much more.</li>
+  <li>A “Markdown Cell” lets you write in Markdown with inline formatting and custom CSS options.</li>
+  <li>A “LaTeX Cell” uses MathJax to typeset mathematical equations in your notes.</li>
+  <li>A “Diagram Cell” lets you create sequence diagrams and flowcharts from text.</li>
+</ol>
+
+<h3 id="text-cell">Text Cell</h3>
+
+<p>This is a <strong>text cell</strong> with <em>some</em> simple* formatting*.</p>
+
+<p>This is <em>an example</em> of a text cell with complex styles applied.</p>
+
+<p>You can change text formatting using the toolbar at the top, or with keyboard shortcuts. Look under the “Format” menu for all the formatting options and keyboard shortcuts.</p>
+
+<h3 id="code-cell">Code Cell</h3>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="c1">// This is a code cell set to the JavaScript mode</span>
+
+<span class="k">void</span> <span class="nx">hello</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Hello World!"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<div class="language-coffee highlighter-rouge"><pre class="highlight"><code><span class="c1"># And this is a code cell set to the CoffeeScript mode
+</span>
+<span class="nx">hello</span> <span class="o">=</span> <span class="o">-&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="na">log</span> <span class="s">'Hello World!'</span>
+</code></pre>
+</div>
+
+<p>Code cells support syntax highlighting for 120+ languages, 20+ themes, automatic indent and outdent, code folding, multiple cursors and selections, code completion, tab triggers, Vim/Emacs keybinding, etc. You can read more about the awesome Ace editor on its website (<a href="http://ace.c9.io/">http://ace.c9.io/</a>).</p>
+
+<h3 id="markdown-cell">Markdown Cell</h3>
+
+<p>Markdown cells support standard Markdown syntax as well as GitHub Flavored Markdown (GFM). Open the preview to see these rendered.</p>
+
+<h3 id="basics">Basics</h3>
+<p># H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6</p>
+
+<hr />
+
+<p><em>italic</em>, <strong>bold</strong>, <del>Scratch this.</del></p>
+
+<p><code class="highlighter-rouge">inline code</code></p>
+
+<h3 id="lists">Lists</h3>
+
+<ol>
+  <li>First ordered list item</li>
+  <li>Another item
+    <ul>
+      <li>Unordered sub-list.</li>
+    </ul>
+  </li>
+  <li>Actual numbers don’t matter, just that it’s a number</li>
+  <li>Ordered sub-list</li>
+  <li>And another item.</li>
+</ol>
+
+<h3 id="quote">Quote</h3>
+
+<blockquote>
+  <p>Peace cannot be kept by force; it can only be achieved by understanding.</p>
+</blockquote>
+
+<h3 id="links">Links</h3>
+
+<p><a href="https://www.google.com">I’m an inline-style link</a>
+http://example.com</p>
+
+<p>You can also create a link to another note: (Note menu -&gt; Copy Note Link -&gt; Paste)
+<a href="quiver-note-url/D2A1CC36-CC97-4701-A895-EFC98EF47026">01 - Getting Started</a></p>
+
+<h3 id="tables">Tables</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tables</th>
+      <th style="text-align: center">Are</th>
+      <th style="text-align: right">Cool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>col 3 is</td>
+      <td style="text-align: center">right-aligned</td>
+      <td style="text-align: right">$1600</td>
+    </tr>
+    <tr>
+      <td>col 2 is</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">$12</td>
+    </tr>
+    <tr>
+      <td>zebra stripes</td>
+      <td style="text-align: center">are neat</td>
+      <td style="text-align: right">$1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="gfm-task-lists">GFM Task Lists</h3>
+<ul>
+  <li>[ ] a task list item</li>
+  <li>[ ] list syntax required</li>
+  <li>[ ] normal <strong>formatting</strong>, @mentions, #1234 refs</li>
+  <li>[ ] incomplete</li>
+  <li>[x] completed</li>
+</ul>
+
+<h3 id="inline-latex">Inline LaTeX</h3>
+
+<p>You can use inline LaTeX inside Markdown cells as well, for example, $x^2$.</p>
+
+<h3 id="latex-cell">LaTeX Cell</h3>
+
+<p>LaTeX cells make it easy to typeset math equations. For example,</p>
+
+<p><script type="math/tex">% <![CDATA[
+\begin{align}
+  \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} & = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+  \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
+  \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
+  \nabla \cdot \vec{\mathbf{B}} & = 0
+\end{align} %]]></script>
+Open the preview to see how it’s rendered.</p>
+
+<p>Inline LaTeX is also supported, for example, $x^2$.</p>
+
+<p>You can also add custom macros in Preferences, and they will be available in all LaTeX cells.</p>
+
+<h3 id="diagram-cell">Diagram Cell</h3>
+
+<p>Diagram cells let you create sequence diagrams and flowcharts from text.</p>
+
+<p>Please check the syntax here:</p>
+
+<ul>
+  <li>Sequence diagram: <a href="http://bramp.github.io/js-sequence-diagrams/">http://bramp.github.io/js-sequence-diagrams/</a></li>
+  <li>Flowchart: <a href="http://flowchart.js.org/">http://flowchart.js.org/</a></li>
+</ul>
+
+<p>Open the preview to see how the following examples are rendered.</p>
+
+<p>Sequence diagram example:</p>
+
+<pre><code class="language-sequence">Title: Here is a title
+A-&gt;B: Normal line
+B--&gt;C: Dashed line
+C-&gt;&gt;D: Open arrow
+D--&gt;&gt;A: Dashed open arrow
+</code></pre>
+
+<p>Flowchart example:</p>
+
+<pre><code class="language-flow">st=&gt;start: Start:&gt;http://www.google.com[blank]
+e=&gt;end:&gt;http://www.google.com
+op1=&gt;operation: My Operation
+sub1=&gt;subroutine: My Subroutine
+cond=&gt;condition: Yes
+or No?:&gt;http://www.google.com
+io=&gt;inputoutput: catch something...
+
+st-&gt;op1-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op1
+</code></pre>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="https://martinyingzheng.github.io/blog/html-with-latex/" class="btn" title="Post HTML File TRY">Previous</a>
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    
+
+<span>&copy; 2016 Ying Zheng. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/so-simple-jekyll-theme/" rel="nofollow">So Simple Theme</a>.</span>
+<div class="social-icons">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  
+	
+  <a href="https://martinyingzheng.github.io/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+</div><!-- /.social-icons -->
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script type="text/javascript">
+  var BASE_URL = 'https://martinyingzheng.github.io';
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://martinyingzheng.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="https://martinyingzheng.github.io/assets/js/scripts.min.js"></script>
+
+
+
+
+</body>
+</html>

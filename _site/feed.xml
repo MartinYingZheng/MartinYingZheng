@@ -1,4 +1,183 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://martinyingzheng.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://martinyingzheng.github.io/" rel="alternate" type="text/html" /><updated>2016-07-27T15:42:44-05:00</updated><id>https://martinyingzheng.github.io/</id><title>Ying Zheng</title><subtitle>Economics and Philosophy</subtitle><entry><title>Post HTML File TRY</title><link href="https://martinyingzheng.github.io/blog/html-with-latex/" rel="alternate" type="text/html" title="Post HTML File TRY" /><published>2016-07-27T00:00:00-05:00</published><updated>2016-07-27T00:00:00-05:00</updated><id>https://martinyingzheng.github.io/blog/html with latex</id><content type="html" xml:base="https://martinyingzheng.github.io/blog/html-with-latex/">&lt;!DOCTYPE html&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://martinyingzheng.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://martinyingzheng.github.io/" rel="alternate" type="text/html" /><updated>2016-07-27T15:46:23-05:00</updated><id>https://martinyingzheng.github.io/</id><title>Ying Zheng</title><subtitle>Economics and Philosophy</subtitle><entry><title>Post markdown with LaTeX</title><link href="https://martinyingzheng.github.io/blog/md-with-latex/" rel="alternate" type="text/html" title="Post markdown with LaTeX" /><published>2016-07-27T00:00:00-05:00</published><updated>2016-07-27T00:00:00-05:00</updated><id>https://martinyingzheng.github.io/blog/md with latex</id><content type="html" xml:base="https://martinyingzheng.github.io/blog/md-with-latex/">&lt;h1 id=&quot;cell-types&quot;&gt;2 - Cell Types&lt;/h1&gt;
+
+&lt;p&gt;Currently five cell types are supported:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A “Text Cell” lets you edit rich-text in-place. It supports images and links too.&lt;/li&gt;
+  &lt;li&gt;A “Code Cell” packs the awesome ACE code editor, with syntax highlighting support for 120+ languages, 20+ themes, automatic indent and outdent, code completion, and much more.&lt;/li&gt;
+  &lt;li&gt;A “Markdown Cell” lets you write in Markdown with inline formatting and custom CSS options.&lt;/li&gt;
+  &lt;li&gt;A “LaTeX Cell” uses MathJax to typeset mathematical equations in your notes.&lt;/li&gt;
+  &lt;li&gt;A “Diagram Cell” lets you create sequence diagrams and flowcharts from text.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;text-cell&quot;&gt;Text Cell&lt;/h3&gt;
+
+&lt;p&gt;This is a &lt;strong&gt;text cell&lt;/strong&gt; with &lt;em&gt;some&lt;/em&gt; simple* formatting*.&lt;/p&gt;
+
+&lt;p&gt;This is &lt;em&gt;an example&lt;/em&gt; of a text cell with complex styles applied.&lt;/p&gt;
+
+&lt;p&gt;You can change text formatting using the toolbar at the top, or with keyboard shortcuts. Look under the “Format” menu for all the formatting options and keyboard shortcuts.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-cell&quot;&gt;Code Cell&lt;/h3&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// This is a code cell set to the JavaScript mode&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-coffee highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# And this is a code cell set to the CoffeeScript mode
+&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;hello&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;log&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;Hello World!&#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Code cells support syntax highlighting for 120+ languages, 20+ themes, automatic indent and outdent, code folding, multiple cursors and selections, code completion, tab triggers, Vim/Emacs keybinding, etc. You can read more about the awesome Ace editor on its website (&lt;a href=&quot;http://ace.c9.io/&quot;&gt;http://ace.c9.io/&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;markdown-cell&quot;&gt;Markdown Cell&lt;/h3&gt;
+
+&lt;p&gt;Markdown cells support standard Markdown syntax as well as GitHub Flavored Markdown (GFM). Open the preview to see these rendered.&lt;/p&gt;
+
+&lt;h3 id=&quot;basics&quot;&gt;Basics&lt;/h3&gt;
+&lt;p&gt;# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;italic&lt;/em&gt;, &lt;strong&gt;bold&lt;/strong&gt;, &lt;del&gt;Scratch this.&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;inline code&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lists&quot;&gt;Lists&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First ordered list item&lt;/li&gt;
+  &lt;li&gt;Another item
+    &lt;ul&gt;
+      &lt;li&gt;Unordered sub-list.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Actual numbers don’t matter, just that it’s a number&lt;/li&gt;
+  &lt;li&gt;Ordered sub-list&lt;/li&gt;
+  &lt;li&gt;And another item.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;quote&quot;&gt;Quote&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Peace cannot be kept by force; it can only be achieved by understanding.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;I’m an inline-style link&lt;/a&gt;
+http://example.com&lt;/p&gt;
+
+&lt;p&gt;You can also create a link to another note: (Note menu -&amp;gt; Copy Note Link -&amp;gt; Paste)
+&lt;a href=&quot;quiver-note-url/D2A1CC36-CC97-4701-A895-EFC98EF47026&quot;&gt;01 - Getting Started&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tables&quot;&gt;Tables&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Tables&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 3 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 2 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zebra stripes&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;are neat&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;gfm-task-lists&quot;&gt;GFM Task Lists&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;[ ] a task list item&lt;/li&gt;
+  &lt;li&gt;[ ] list syntax required&lt;/li&gt;
+  &lt;li&gt;[ ] normal &lt;strong&gt;formatting&lt;/strong&gt;, @mentions, #1234 refs&lt;/li&gt;
+  &lt;li&gt;[ ] incomplete&lt;/li&gt;
+  &lt;li&gt;[x] completed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;inline-latex&quot;&gt;Inline LaTeX&lt;/h3&gt;
+
+&lt;p&gt;You can use inline LaTeX inside Markdown cells as well, for example, $x^2$.&lt;/p&gt;
+
+&lt;h3 id=&quot;latex-cell&quot;&gt;LaTeX Cell&lt;/h3&gt;
+
+&lt;p&gt;LaTeX cells make it easy to typeset math equations. For example,&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{align}
+  \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+  \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\
+  \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\
+  \nabla \cdot \vec{\mathbf{B}} &amp; = 0
+\end{align} %]]&gt;&lt;/script&gt;
+Open the preview to see how it’s rendered.&lt;/p&gt;
+
+&lt;p&gt;Inline LaTeX is also supported, for example, $x^2$.&lt;/p&gt;
+
+&lt;p&gt;You can also add custom macros in Preferences, and they will be available in all LaTeX cells.&lt;/p&gt;
+
+&lt;h3 id=&quot;diagram-cell&quot;&gt;Diagram Cell&lt;/h3&gt;
+
+&lt;p&gt;Diagram cells let you create sequence diagrams and flowcharts from text.&lt;/p&gt;
+
+&lt;p&gt;Please check the syntax here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sequence diagram: &lt;a href=&quot;http://bramp.github.io/js-sequence-diagrams/&quot;&gt;http://bramp.github.io/js-sequence-diagrams/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Flowchart: &lt;a href=&quot;http://flowchart.js.org/&quot;&gt;http://flowchart.js.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Open the preview to see how the following examples are rendered.&lt;/p&gt;
+
+&lt;p&gt;Sequence diagram example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-sequence&quot;&gt;Title: Here is a title
+A-&amp;gt;B: Normal line
+B--&amp;gt;C: Dashed line
+C-&amp;gt;&amp;gt;D: Open arrow
+D--&amp;gt;&amp;gt;A: Dashed open arrow
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Flowchart example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-flow&quot;&gt;st=&amp;gt;start: Start:&amp;gt;http://www.google.com[blank]
+e=&amp;gt;end:&amp;gt;http://www.google.com
+op1=&amp;gt;operation: My Operation
+sub1=&amp;gt;subroutine: My Subroutine
+cond=&amp;gt;condition: Yes
+or No?:&amp;gt;http://www.google.com
+io=&amp;gt;inputoutput: catch something...
+
+st-&amp;gt;op1-&amp;gt;cond
+cond(yes)-&amp;gt;io-&amp;gt;e
+cond(no)-&amp;gt;sub1(right)-&amp;gt;op1
+&lt;/code&gt;&lt;/pre&gt;</content><summary>borrow from quiver</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://martinyingzheng.github.io{&quot;feature&quot;=&gt;&quot;site-logo.jpg&quot;}" /></entry><entry><title>Post HTML File TRY</title><link href="https://martinyingzheng.github.io/blog/html-with-latex/" rel="alternate" type="text/html" title="Post HTML File TRY" /><published>2016-07-27T00:00:00-05:00</published><updated>2016-07-27T00:00:00-05:00</updated><id>https://martinyingzheng.github.io/blog/html with latex</id><content type="html" xml:base="https://martinyingzheng.github.io/blog/html-with-latex/">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot;&gt;

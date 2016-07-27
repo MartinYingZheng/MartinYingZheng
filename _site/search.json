@@ -2,6 +2,14 @@
 
   
     {
+      "title"			: "Post markdown with LaTeX",
+      "link"			: "https://martinyingzheng.github.io/blog/md-with-latex/",
+      "excerpt"		: "borrow from quiver"
+    }
+  
+
+  
+    ,{
       "title"			: "Post HTML File TRY",
       "link"			: "https://martinyingzheng.github.io/blog/html-with-latex/",
       "excerpt"		: "borrow from quiver"
