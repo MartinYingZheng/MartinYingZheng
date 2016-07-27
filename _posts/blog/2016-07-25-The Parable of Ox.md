@@ -18,8 +18,8 @@ Author starts with an interesting parable not just about financial market, but a
 > In 1906, Francis Galton observed a weight guessing competition at a country fair. 800 people guessed the weight of an ox. He discovered that average guess was very closed to the true weight of the ox. (***LLN***)
 
 What follows is cleverly made by the author.
-- The organizer started to use the average weight as the true weight.
-- Some guesser tried to cheat based on the privileged information from the farmer who raised the ox. Others would be reluctant to participate in the competition since some insiders had an edge. With few participants, the **_LLN_** fails. (**Lemon Market - Asymmetric Information Problem**)
+* The organizer started to use the average weight as the true weight.
+* Some guesser tried to cheat based on the privileged information from the farmer who raised the ox. Others would be reluctant to participate in the competition since some insiders had an edge. With few participants, the **_LLN_** fails. (**Lemon Market - Asymmetric Information Problem**)
 - Regulation was introduced to save the weight discovery mechansim. The farmer was asked to reveal all the relevant information to the public, and was forbidden to provide insider information to anyone, or else he would be expelled from the market.
 - Some smarter guy started to realized that since the award was not based on the true weight of the ox, but the average of the guessing weights. What mattered were the guesses of the other participants.
   - The key lay not in correctly assessing the weight of the ox, but in correctly assessing what others would guess.
